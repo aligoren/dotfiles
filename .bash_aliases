@@ -1,3 +1,6 @@
 alias t="top"
 alias py="python3"
 alias n="nikola"
+alias gadd="git add *"
+alias gcom="git commit -m"
+alias gpom="git push -u origin master"
