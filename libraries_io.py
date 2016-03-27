@@ -6,6 +6,22 @@ Sample:
     LibIO_Lib = "grunt"
     LibIO_API_KEY = "YOUR_API_KEY"
 
+
+    /* main.py */
+    
+    import libraries_io as libio
+    
+    libio.LibIO_Tech = "npm"
+    libio.LibIO_Lib = "grunt"
+    libio.LibIO_API_KEY = "522a84d3aa76da9c8b49d6c9e465ed38"
+    
+    
+    lio = libio.LibrarisIO()
+    
+    
+    
+    lio.getAllInfo()
+
 This is bad practice :/
 """
 
