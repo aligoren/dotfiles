@@ -13,7 +13,7 @@ Sample:
     
     libio.LibIO_Tech = "npm"
     libio.LibIO_Lib = "grunt"
-    libio.LibIO_API_KEY = "522a84d3aa76da9c8b49d6c9e465ed38"
+    libio.LibIO_API_KEY = "MY_API_KEY"
 
     lio = libio.LibrarisIO()
     
