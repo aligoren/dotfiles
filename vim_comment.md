@@ -1,8 +1,5 @@
 if commentary installed:
 
-   259
-down vote
-	
 To comment out blocks in vim:
 
     press Esc (to leave editing or other mode)
