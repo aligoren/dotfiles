@@ -12,7 +12,8 @@ To comment out blocks in vim:
     run `gcc` command
     press Esc
 
-for uncomment
+for uncomment:
+
     press Esc (to leave editing or other mode)
     hit ctrl+v (visual block mode)
     use the up/down arrow keys to select lines you want (it won't highlight everything - it's OK!)
