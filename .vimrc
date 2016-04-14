@@ -85,3 +85,9 @@ set clipboard=unnamed
 "au VimEnter *  NERDTree
 "Plugin 'klen/python-mode'
 set whichwrap+=<,>,h,l,[,]
+Plugin 'tpope/vim-markdown'
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
+
+colorscheme solarized
+set background=dark
