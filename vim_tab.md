@@ -1,6 +1,6 @@
 All Tab Configurations:
 
-My fav => `:tabn`, `gt` <= (before press ESC)
+My fav => `:tabn`, `gt` <= (press ESC for gt)
 
     :tabnew filename or :tabn filename - open a file in a new tab
     
