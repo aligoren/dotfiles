@@ -1,3 +1,7 @@
+"""
+tree directory output.
+"""
+
 import os
  
 rootDir = '.'
@@ -18,3 +22,36 @@ for dirName, subdirList, fileList in os.walk(rootDir):
         print('\t|')
         print('\t|')
         #print('\t|')
+
+"""
++-------Current
+	|
+	|
+	|
+	↳ ------------main.py~
+	↳ ------------main.py
+	|
+	|
++-------Other
+	|
+	|
+	|
+	↳ ------------fedora_sorular
+	↳ ------------fikirler.txt
+	↳ ------------kutucuğum kaldığım yer
+	|
+	|
++-------Other/py_sozluk
+	|
+	|
+	|
+	↳ ------------.spyderworkspace
+	|
+	|
++-------Other/Book
+	|
+	|
+	|
+	↳ ------------python2.docx
+
+"""
